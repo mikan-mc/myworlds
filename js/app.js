@@ -125,8 +125,8 @@ const worlds = [
         ],
         image: "https://placehold.co/600x400/202020/ffffff?text=DaD+in+Minecraft",
         download_path: {
-            world_data: "./files/wow.zip",
-            resource_pack: "./files/wow.zip"
+            world_data: "https://github.com/mikan-mc/myworlds/releases/download/v0.1/baka.zip",
+            resource_pack: "https://github.com/mikan-mc/myworlds/releases/download/v0.1/baka.zip"
         }
     },
     {
@@ -142,8 +142,8 @@ const worlds = [
         ],
         image: "https://placehold.co/600x400/2c8bea/ffffff?text=Zombie+Streak",
         download_path: {
-            world_data: "./files/wow.zip",
-            resource_pack: "NULL"
+            world_data: "https://github.com/mikan-mc/myworlds/releases/download/v0.1/baka.zip",
+            resource_pack: "NONE"
         }
     },
     {
@@ -159,8 +159,8 @@ const worlds = [
         ],
         image: "https://placehold.co/600x400/76f478/ffffff?text=Minigame+Forest",
         download_path: {
-            world_data: "./files/wow.zip",
-            resource_pack: "NULL"
+            world_data: "https://github.com/mikan-mc/myworlds/releases/download/v0.1/baka.zip",
+            resource_pack: "NONE"
         }
     },
     {
@@ -176,8 +176,8 @@ const worlds = [
         ],
         image: "https://placehold.co/600x400/202020/ffffff?text=DaD+in+Minecraft",
         download_path: {
-            world_data: "./files/wow.zip",
-            resource_pack: "./files/wow.zip"
+            world_data: "https://github.com/mikan-mc/myworlds/releases/download/v0.1/baka.zip",
+            resource_pack: "https://github.com/mikan-mc/myworlds/releases/download/v0.1/baka.zip"
         }
     }
 ];
