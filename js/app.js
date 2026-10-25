@@ -142,7 +142,7 @@ const worlds = [
         ],
         image: "https://placehold.co/600x400/2c8bea/ffffff?text=Zombie+Streak",
         download_path: {
-            world_data: "https://github.com/mikan-mc/myworlds/releases/download/v0.1/baka.zip",
+            world_data: "https://github.com/mikan-mc/myworlds/releases/latest/download/baka.zip",
             resource_pack: "NONE"
         }
     },
