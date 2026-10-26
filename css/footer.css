@@ -1,0 +1,35 @@
+.footer {
+    display: grid;
+    /*位置*/
+    height: 128px;
+    /*形状*/
+    padding: 16px;
+    /*背景*/
+    background-image: url("../images/bedrock.png");
+    image-rendering: pixelated;
+    background-repeat: repeat;
+    background-size: 64px 64px;
+    box-shadow: 0 -8px 8px rgba(0, 0, 0, 0.2);
+}
+.footer-text {
+    /*位置*/
+    grid-column: 2;
+    /*形状*/
+    /*文字*/
+    color: white;
+    font-size: 24px;
+    text-align: center;
+}
+.footer-xlogo {
+    display: inline-block;
+    /*位置*/
+    grid-column: 3;
+    justify-self: end;
+    /*形状*/
+    width: 64px;
+    height: 64px;
+    border-radius: 16px;
+    padding: 8px 8px;
+    /*背景*/
+    background-color: #000000;
+}

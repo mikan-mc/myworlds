@@ -1,0 +1,69 @@
+/* ボックスの中身 */
+.helpbox-container {
+    /*位置*/
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+    /*形状*/
+    width: 100%;
+    height: 100%;
+}
+/* ボックスを閉じる判定 */
+.helpbox-close {
+    /*位置*/
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    /*形状*/
+    width: 100%;
+    height: 100%;
+    /*背景*/
+    background-color: rgba(0, 0, 0, 0.6);
+}
+/* ボックスそのもの */
+.helpbox {
+    /*位置*/
+    margin: 16px auto;
+    height: 95%;
+    z-index: 3;
+    /*形状*/
+    width: 90%;
+    max-width: 1024px;
+    overflow-y: scroll;
+    border-radius: 32px;
+    padding: 16px 32px;
+    /*背景*/
+    background-color: #f0f4f8;
+    /*文字*/
+    color: #0c4e03;
+    font-size: 24px;
+    h3 {
+        color: #000000;
+        font-size: 48px;
+        text-align: center;
+    }
+}
+/* 画像 */
+.helpbox-image-container {
+    /*位置*/
+    margin: auto;
+    margin-bottom: 24px;
+    position: relative;
+    /*形状*/
+    width: 90%;
+    padding-top: 56.25%; /* 16:9 */
+    /*背景*/
+    background-color: #aebbd1;
+}
+/* 画像 */
+.helpbox-image {
+    /*位置*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    /*形状*/
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

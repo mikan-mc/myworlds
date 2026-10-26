@@ -1,0 +1,59 @@
+.header {
+    /*位置*/
+    position: fixed;
+    z-index: 1;
+    /*形状*/
+    width: 100%;
+    height: 80px;
+    /*背景*/
+    background-image: url("../images/stone_bricks.png");
+    image-rendering: pixelated;
+    background-repeat: repeat-x;
+    background-size: 80px 80px;
+    box-shadow: 0px 16px 16px rgba(0, 0, 0, 0.2);
+}
+.header-title {
+    /*位置*/
+    position: absolute;
+    top: 6px;
+    left: 24px;
+    /*形状*/
+    /*文字*/
+    color: white;
+    font-size: 40px;
+    text-shadow:
+        5px 0px 1px black,
+        -5px 0px 1px black,
+        0px 5px 1px black,
+        0px -5px 1px black,
+        3px 3px 1px black,
+        3px -3px 1px black,
+        -3px 3px 1px black,
+        -3px -3px 1px black;
+}
+
+.header-help-button {
+    /*位置*/
+    position: fixed;
+    top: 80px;
+    right: 24px;
+    z-index: 1;
+    /*形状*/
+    width: 160px;
+    height: 80px;
+    padding: 36px 0px;
+    /*背景*/
+    background-image: url("../images/hanging_sign.png");
+    image-rendering: pixelated;
+    background-repeat: repeat-x;
+    background-size: 80px 80px;
+    box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.2);
+    /*文字*/
+    color: #341802;
+    font-size: 24px;
+    text-align: center;
+}
+.header-help-button:hover {
+    /*文字*/
+    color: white;
+}

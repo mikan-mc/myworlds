@@ -1,0 +1,73 @@
+.containerr {
+    /*位置*/
+    margin: auto;
+    /*形状*/
+    min-height: 100vh;
+    padding: 48px 4%;
+    /*背景*/
+    background-image: url("../images/stone.png");
+    image-rendering: pixelated;
+    background-repeat: repeat;
+    background-size: 48px 48px;
+}
+.worlds-container {
+    margin-top: 64px;
+    gap: 32px;
+    /*分岐*/
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    @media (min-width: 640px) {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    @media (min-width: 1024px) {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}
+.card {
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.1s ease-in-out, box-shadow 0.1s ease-in-out;
+}
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.card-image-container {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%; /* 16:9 */
+    background-color: #d1d5db;
+}
+.card-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.content {
+    padding: 16px;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    h2 {
+        font-size: 40px;
+        margin-bottom: 8px;
+    }
+    p {
+        font-size: 16px;
+        color: #2a2a2a;
+    }
+    .text-color-red {
+        color: red;
+    }
+    .text-color-orange {
+        color: orange;
+    }
+    .space {
+        height: 8px;
+    }
+}
